@@ -1,0 +1,208 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+body{
+
+    background:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)),url(Wallpaper/wallhaven-453w91.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+header{
+
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.container{
+
+    margin: 150px;
+    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#arduino,#powerbi,#qgis,#python{
+
+    width:200px;
+    text-align: center;
+    border-style:double;
+    border-color: white;
+    border-radius:20px;
+    padding: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    background-color:rgba(68, 64, 64, 0.5);
+    font-size: x-large;
+    color: antiquewhite;
+    text-transform: uppercase;
+    
+}
+
+#arduino:hover{
+
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+#powerbi:hover{
+
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+#python:hover{
+
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+#qgis:hover{
+
+    transform: scale(1.2);
+    transition: 1s;
+
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px; /* Menor margem */
+        place-items: center;
+    }
+    #powerbi{
+
+        grid-row: 1;
+        margin: 20px;
+
+    }
+    #qgis{
+
+        grid-row: 2;
+        margin: 20px;
+        
+        
+    }
+    #arduino{
+
+        grid-row: 3;
+        margin: 20px;
+        
+    }
+    #python{
+
+        grid-row: 4;
+        margin: 20px;
+    }
+
+}
+@media (min-width: 575.98px) and (max-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px; /* Menor margem */
+        place-items: center;
+    }
+    #powerbi{
+
+        grid-row: 1;
+        margin: 20px;
+
+    }
+    #qgis{
+
+        grid-row: 2;
+        margin: 20px;
+        
+        
+    }
+    #arduino{
+
+        grid-row: 3;
+        margin: 20px;
+        
+    }
+    #python{
+
+        grid-row: 4;
+        margin: 20px;
+    }
+
+}
+@media (min-width: 768px) and (max-width:992px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px; /* Menor margem */
+        place-items: center;
+    }
+    #powerbi{
+
+        grid-row: 1;
+        margin: 20px;
+
+    }
+    #qgis{
+
+        grid-row: 2;
+        margin: 20px;
+        
+        
+    }
+    #arduino{
+
+        grid-row: 3;
+        margin: 20px;
+        
+    }
+    #python{
+
+        grid-row: 4;
+        margin: 20px;
+    }
+
+}
+@media (min-width:992px) and (max-width:1200px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin: 20px; /* Menor margem */
+        place-items: center;
+    }
+    #powerbi{
+
+        grid-row: 1;
+        margin: 20px;
+
+    }
+    #qgis{
+
+        grid-row: 2;
+        margin: 20px;
+        
+        
+    }
+    #arduino{
+
+        grid-row: 3;
+        margin: 20px;
+        
+    }
+    #python{
+
+        grid-row: 4;
+        margin: 20px;
+    }
+
+}
