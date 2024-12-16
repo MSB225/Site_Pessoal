@@ -4,13 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
 
-
 }
 body{
 
     background:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)),url(Wallpaper/wallhaven-453w91.jpg);
     background-size: cover;
-    min-height: 100vh;
+    max-height: 100vh;
 
 }
 header{
