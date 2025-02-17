@@ -2,12 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
-body{
-
-    background:linear-gradient(rgba(20,20,20,0.7),rgba(20,20,20,0.7)),url(Wallpaper/wallhaven-453w91.jpg);
+body {
+    background: linear-gradient(rgba(20,20,20,0.7), rgba(20,20,20,0.7)),url(Wallpaper/wallhaven-453w91.jpg);
     background-size: cover;
-
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Garante que o fundo cubra toda a tela */
+    margin: 0;
+    padding: 0;
 }
 .container{
 
